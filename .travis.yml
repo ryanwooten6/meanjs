@@ -1,12 +1,12 @@
 language: node_js
 node_js:
 - '0.10'
-env:
-  global:
-    secure: gA6CUvGLxdFW0gghg/GnWwCikb+I5U83MViQqagGzOXOX2trSyTNEo5Y7SCKmWPp2VG0lnTooi09E9JNVhz58VkHn0Pw4FOCdEyOEpbcYILcEwvvAiQumtsPkeddMF1adoeSzxL6FsJhbaCOYdizmjyhPVuB94ae+bGA3wgx2So=
 deploy:
   provider: openshift
   user: tall14dude@gmail.com
-  password: OPENSHIFT_PASS
+  password:
+    secure: T9K2/e+eEEadOZuUe6evuU7ADGQtVNg3pSAINpCQiCH3+2FZwDCDkWNrlD7kiInW5Hgx61zE+hsDoRaSdHScmSHKlEuiV6N8TdVcMUOBAE4tJZhUclZ5n7ljCmj7PqKPX9/vVXETlN7c44ZmdhMM8PMzM+0j7I4WMlp6p22mhF8=
+  app: meanjs
   domain: ryanwooten6
-  app: express
+  on:
+    repo: ryanwooten6/meanjs
