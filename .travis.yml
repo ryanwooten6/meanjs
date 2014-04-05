@@ -6,7 +6,7 @@ deploy:
   user: tall14dude@gmail.com
   password:
     secure: T9K2/e+eEEadOZuUe6evuU7ADGQtVNg3pSAINpCQiCH3+2FZwDCDkWNrlD7kiInW5Hgx61zE+hsDoRaSdHScmSHKlEuiV6N8TdVcMUOBAE4tJZhUclZ5n7ljCmj7PqKPX9/vVXETlN7c44ZmdhMM8PMzM+0j7I4WMlp6p22mhF8=
-  app: meanjs
+  app: express
   domain: ryanwooten6
   on:
     repo: ryanwooten6/meanjs
