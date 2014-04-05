@@ -1,3 +1,12 @@
 language: node_js
 node_js:
 - '0.10'
+env:
+  global:
+    secure: gA6CUvGLxdFW0gghg/GnWwCikb+I5U83MViQqagGzOXOX2trSyTNEo5Y7SCKmWPp2VG0lnTooi09E9JNVhz58VkHn0Pw4FOCdEyOEpbcYILcEwvvAiQumtsPkeddMF1adoeSzxL6FsJhbaCOYdizmjyhPVuB94ae+bGA3wgx2So=
+deploy:
+  provider: openshift
+  user: tall14dude@gmail.com
+  password: OPENSHIFT_PASS
+  domain: ryanwooten6
+  app: express
